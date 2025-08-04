@@ -15,16 +15,16 @@ function App() {
       <h1>Our Team</h1>
       <div className="cards-container">
         <ProfileCard 
-          name="Satoro Gojo"
+          name="Satoru Gojo"
           title="honoured One"
           image={gojoImg}
-          bio="Passionate about recruiting the best socerers in JJK history"
+          bio="Passionate about recruiting the best socerers in JJK history.  'Throughout the heavens and earth, I alone am the honoured One' "
         />
         <ProfileCard 
           name="Yuta Okotsu"
           title="Special Grade socerer"
           image={yutaImg}
-          bio="Specializes in building scalable server architectures and database optimization. Always ready to tackle complex challenges."
+          bio="Prodigy, one of only a few sorcerers to be classified as Special Grade, second only to satoru"
         />
 
 
@@ -32,7 +32,9 @@ function App() {
           name="Yuji Itadori"
           title="A Grade socerer"
           image={yujiImg}
-          bio="Passionate about creating user-friendly interfaces and modern web experiences. Contact: sarah@company.com"
+          bio="Driven by a desire to give others a “proper death,” I fight with conviction and heart.
+
+"
         />
 
         <ProfileCard 
@@ -46,15 +48,15 @@ function App() {
           name="Killua"
           title=" aura farmer"
           image={killuaImg}
-          bio="Passionate about creating user-friendly interfaces and modern web experiences. Contact: sarah@company.com"
+          bio="Highly intelligent and quick-witted, I combines agility, electricity-based Nen techniques"
         />
 
 
         <ProfileCard 
           name="kisuke urahara"
-          title=" Heavenly Restrictions"
+          title=" Sensei"
           image={kisukeImg}
-          bio="Passionate about creating user-friendly interfaces and modern web experiences. Contact: sarah@company.com"
+          bio="A former captain of the Soul Society’s 12th Division and the founder of the Shinigami Research Institute, I am a genius inventor and strategist."
         />
       </div>
     </div>
